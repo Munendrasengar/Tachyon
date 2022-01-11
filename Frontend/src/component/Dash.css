@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:lightcoral;
+    display: block;
+    font-family: sans-serif;
+    padding: 0 10px;
+}
+.wrap{
+    max-width: 500px;
+    width: 100%;
+    background:lightblue ;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+    height: 650px;
+}
+
+ h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 35px;
+}
+ p{
+    display: flex;
+    justify-content: center;
+    color: lightslategray;
+}
+
+.forwrd{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 10px 0px;
+}
+
+.forwrd button{
+    color: white;
+    background: blue;
+    width: 90px;
+    height: 30px;
+    letter-spacing: 2px;
+    margin: 10px;
+    border-radius: 3px;
+}
+.forwrd button:hover{
+    background: white;
+    color: blue;
+}
+
+.backwrd h4{
+    padding-top: 10px;
+    font-size: 20px;
+    color:purple;
+}
+.wrap .backwrd .form1{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.wrap .backwrd .form1 label{
+    width: 90px;
+    color:#757575;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.wrap .backwrd .form1 .input{
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 4px 5px;
+    border-radius: 8px;
+}
+.wrap .backwrd .form1 .gen{
+    width: 30px;
+    cursor: pointer;
+}
+.wrap .backwrd .btn{
+    width: 90px;
+    padding: 8px 10px;
+    font-size: 15px;
+    margin: 0px 0px 0px 210px ;
+    border: 0;
+    background: blue;
+    color: white;
+    border-radius: 3px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+}
+.wrap .backwrd .btn1{
+    width: 90px;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin: 0px 0px 10px 210px ;
+    border: 0;
+    background: blue;
+    color: white;
+    border-radius: 3px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+}
+.wrap .backwrd .btn:hover{
+    background: white;
+    color: blue;
+}
+@media (max-width:420px){
+    .wrap .backwrd .form1{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .wrap .backwrd .form1 label{
+        margin-bottom: 5px;
+    }
+
+}
